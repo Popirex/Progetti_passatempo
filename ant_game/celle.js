@@ -12,7 +12,7 @@ class Celle{
   
     stroke(1);
 
-    if(!this.stato) fill('black');
+    if(this.stato) fill('black');
     else fill('white');
     square(this.x, this.y, this.r);
     
